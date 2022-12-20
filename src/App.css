@@ -1,0 +1,159 @@
+body {
+  background-color: #ffffff;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2d807a;
+  /* border-radius: 10px; */
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(1, 12, 22);
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.container {
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #2d807a;
+  border-radius: 10px;
+}
+
+.container-right {
+  width: 100%;
+  color: rgb(14, 12, 10);
+}
+.container-flex {
+  display: flex;
+}
+.customer-table {
+  max-height: 400px;
+  overflow: auto;
+}
+table {
+  width: 100%;
+}
+body {
+  background-image: url();
+}
+h1 {
+  text-align: center;
+}
+/* form*/
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(240, 237, 237);
+
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+button[type="submit"] {
+  background-color: #2d807a;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(240, 237, 237);
+  color: white;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+button[type="submit"]:hover {
+  background-color: #034206;
+}
+
+.customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+tr:hover {
+  background-color: gray;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #2d807a;
+  color: white;
+}
+
+.icon-btn {
+  border: none;
+  background: transparent;
+}
+
+.icon-btn:hover {
+  transform: scale(1.25);
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+}
+.search-style {
+  border-radius: 10px;
+  width: 500px;
+}
+
+.check-box-toggle {
+  float: right;
+  padding: 10px;
+}
+
+.flex-justified {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-check {
+  width: auto;
+  margin: 5px;
+}
+
+.column-config {
+  background-color: lightgray;
+  padding: 5px;
+  border: 1px solid gray;
+  width: 150px;
+  border-radius: 5px;
+}
